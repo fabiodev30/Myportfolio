@@ -1,5 +1,4 @@
 import React from 'react'
-import Card from './UI/Card'
 import CardSkill from './UI/CardSkill'
 import Divider from './UI/Divider'
 
@@ -10,9 +9,9 @@ const Skills = (props) => {
       <div>
         <Divider />
       </div>
-      <div class="row row-cols-2 pt-1 pb-4">
-      {props.listaskills.map((skill) =>
-        <div class="col">
+      <div className="row row-cols-2 pt-1 pb-4">
+      {props.listaskills.map((skill,index) =>
+        <div className="col" key={index}>
                   <CardSkill name={skill}/>
         </div>
       )}

@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg" style={{backgroundColor:"#343a40"}}>
+    <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor:"#343a40"}}>
       <div className="container p-3">
         <a className="navbar-brand text-white" href="">
           FABIO ANGELI

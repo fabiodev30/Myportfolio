@@ -24,7 +24,7 @@ const ContactForm = () => {
   return (
     <form ref={form} onSubmit={submit}>
       <div className="form-group">
-        <label for="username">Name:</label>
+        <label htmlFor="username">Name:</label>
         <input
           type="text"
           className="form-control"
@@ -35,7 +35,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="form-group">
-        <label for="email">Email:</label>
+        <label htmlFor="email">Email:</label>
         <input
           type="email"
           className="form-control"
@@ -46,7 +46,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="form-group">
-        <label for="exampleFormControlTextarea1">Message:</label>
+        <label htmlFor="exampleFormControlTextarea1">Message:</label>
         <textarea
           className="form-control"
           id="message"

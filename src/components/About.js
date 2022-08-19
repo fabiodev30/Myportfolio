@@ -19,7 +19,7 @@ const About = () => {
           Junior Full Stack Web Developer{" "}
         </h1>
         <h5 className="text-white text-center">
-          I design and code beautifully simple things, and I love what I do.
+          I design and code simple things, and I love what I do.
         </h5>
       </div>
     </div>

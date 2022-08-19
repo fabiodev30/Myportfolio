@@ -9,9 +9,9 @@ const Projects = (props) => {
       <div>
         <Divider />
       </div>
-      <div class="row pt-1 pb-5">
+      <div className="row pt-1 pb-5">
       {props.progetti.map((progetto,index) =>
-        <div class="col-lg-4">
+        <div className="col-lg-4" key={index}>
                   <Card image={progetto.hrefimage} linksite={progetto.linksite}/>
         </div>
       )}
