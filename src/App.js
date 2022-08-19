@@ -10,10 +10,12 @@ function App() {
   return (
     <main>
       <Header />
+      <div className="bg-dark">
       <About />
       <Projects />
       <Skills />
       <Contact />
+      </div>
     </main>
   );
 }
