@@ -12,6 +12,8 @@ const listProjects = [
 
 ];
 
+const listaSkills = ["Django","Javascript","React","Bootstrap","Python","Kubernetes(livello base)","Docker(livello base)","Vue"];
+
 function App() {
   return (
     <main>
@@ -22,8 +24,8 @@ function App() {
       <section className="pb-4" style={{backgroundColor:"#343a40"}} id="projects">
         <Projects progetti={listProjects}/>
       </section>
-      <section className="bg-dark pb-4">
-        <Skills />
+      <section className="bg-dark pb-4" id="skills">
+        <Skills listaskills={listaSkills}/>
       </section>
         <Contact />
       
