@@ -7,7 +7,6 @@ const Divider = () => {
     <div className="divider-custom divider-light">
       <div
         className="white-line me-2"
-        style={{ backgroundColor: "lightblue" }}
       ></div>
       <div className="text-white">
         <FaStar style={{ height: "30px", width: "30px" }} />
