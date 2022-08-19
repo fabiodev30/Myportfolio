@@ -14,7 +14,7 @@ const About = () => {
       <div className="pt-3">
         <Divider />
       </div>
-      <div className="pt-3">
+      <div className="pt-3 pb-4">
         <h1 className="text-white text-center">
           Junior Full Stack Web Developer{" "}
         </h1>

@@ -5,11 +5,11 @@ import Divider from "./UI/Divider";
 const Projects = (props) => {
   return (
     <div className="container text-white">
-      <h1 className="text-center pt-3">MY PROJECTS</h1>
+      <h1 className="text-center pt-5">MY PROJECTS</h1>
       <div>
         <Divider />
       </div>
-      <div class="row">
+      <div class="row pt-1 pb-5">
       {props.progetti.map((progetto,index) =>
         <div class="col-lg-4">
                   <Card image={progetto.hrefimage} linksite={progetto.linksite}/>
