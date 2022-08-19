@@ -27,8 +27,9 @@ function App() {
       <section className="bg-dark pb-4" id="skills">
         <Skills listaskills={listaSkills}/>
       </section>
+      <section className="pb-4" style={{backgroundColor:"#343a40"}} id="contact">
         <Contact />
-      
+      </section>
     </main>
   );
 }
