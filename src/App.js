@@ -5,6 +5,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
+import Copyright from "./components/Copyright";
 
 const listProjects = [
   { hrefimage:"https://cdn.scontispaziali.it/images/logos/sconti-spaziali.png",linksite:"https://scontispaziali.it" },
@@ -29,6 +31,12 @@ function App() {
       </section>
       <section className="pb-4" style={{backgroundColor:"#343a40"}} id="contact">
         <Contact />
+      </section>
+      <section className="bg-dark pb-4">
+        <Footer />
+      </section>
+      <section style={{backgroundColor:"#343a40"}}>
+        <Copyright />
       </section>
     </main>
   );
