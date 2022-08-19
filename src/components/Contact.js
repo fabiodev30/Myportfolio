@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import ContactForm from "./ContactForm";
 import Divider from "./UI/Divider";
 
@@ -9,7 +9,7 @@ const Contact = () => {
       <div>
         <Divider />
       </div>
-      <div>
+      <div className="pb-5">
         <ContactForm />
       </div>
     </div>

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg" style={{backgroundColor:"#343a40"}}>
       <div className="container p-3">
-        <a className="navbar-brand text-white" href="#">
+        <a className="navbar-brand text-white" href="">
           FABIO ANGELI
         </a>
         <button
@@ -34,7 +34,7 @@ const Header = () => {
               <a className="nav-link text-white" href="#skills">SKILLS</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white">CONTACT</a>
+              <a className="nav-link text-white" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
