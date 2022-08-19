@@ -10,7 +10,7 @@ const Skills = (props) => {
       <div>
         <Divider />
       </div>
-      <div class="row row-cols-2 pt-1 pb-5">
+      <div class="row row-cols-2 pt-1 pb-4">
       {props.listaskills.map((skill) =>
         <div class="col">
                   <CardSkill name={skill}/>

@@ -12,7 +12,7 @@ const listProjects = [
 
 ];
 
-const listaSkills = ["Django","Javascript","React","Bootstrap","Python","Kubernetes(livello base)","Docker(livello base)","Vue"];
+const listaSkills = ["Django","Javascript","React","Bootstrap","Python","Kubernetes (livello base)","Docker (livello base)","Vue"];
 
 function App() {
   return (
